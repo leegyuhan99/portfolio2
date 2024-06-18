@@ -1,0 +1,49 @@
+.intro-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 2px solid #666666;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.carousel-section {
+  position: relative;
+}
+.carousel-sidebar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+}
+.carousel-sidebar.left {
+  left: -18%;
+}
+.carousel-sidebar.right {
+  right: -18%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+}
+.carousel-indicators button {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 지정 */
+}
+
+.profile-info {
+  font-weight: bold; /* 글자 굵게 */
+  font-size: 1.2rem; /* 글자 크기 조정 */
+  color: #333; /* 글자 색상 */
+}
