@@ -1,0 +1,49 @@
+.link {
+  text-align: center;
+  font-size: large;
+}
+.center {
+  text-align: left;
+}
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 500px;
+}
+.center {
+  text-align: center;
+}
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+}
+.card-custom {
+  margin-bottom: 2rem;
+  border: 1px solid #0d4379;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body-custom {
+  padding: 2rem;
+}
+.link a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.link a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.left-align {
+  text-align: left;
+  padding-left: calc(50% - 600px);
+  max-width: 1000px;
+  margin: 0 auto;
+}
